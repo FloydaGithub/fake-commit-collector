@@ -5,7 +5,7 @@ date=$(date "+%Y-%m-%d")
 time=$(date "+%T")
 file_name=$year-collector.md
 
-msg="$date $time"
+msg="$date $time\n"
 echo $msg >> $file_name
 echo $msg > current-msg.md
 
