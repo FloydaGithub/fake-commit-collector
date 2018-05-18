@@ -13,8 +13,6 @@ echo -e "Update $msg" > current-msg.md
 msg="cat current-msg.md"
 git add .
 git commit -m "$($msg)"
-git push github master
-git push coding master
 
 if [ $(uname) == "Darwin" ]
 then
